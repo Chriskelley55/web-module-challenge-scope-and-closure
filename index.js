@@ -56,14 +56,16 @@ function counter2() {
 /* ⚾️⚾️⚾️ Task 2: inning() ⚾️⚾️⚾️
 Use the inning function below to do the following:
   1. Return a random whole number of points between 0 and 2 scored by one team in an inning
-  
+  ---random number between 0 and 2  /
   For example: invoking inning() should return a numerical score value of 0, 1, or 2
   
 NOTE: This will be a callback function for the tasks below
 */
 
-function inning(/*Code Here*/){
-    /*Code Here*/
+function inning(min, max){
+    min = Math.ceil(2);
+    max = Math.floor(0);
+    return Math.floor(Math.random() * (max - min) + min);
 }
 
 
@@ -81,9 +83,20 @@ Use the finalScore function below to do the following:
 }
 */ 
 
-function finalScore(/*code Here*/){
-  /*Code Here*/
+function finalScore(inningCB, score){
+  let home = 0;
+  let away - 0;
+  for(let i - 0; i < Number; i++){
+    home = ,
+    away - away + inningCB();
+
+  }
+  return{
+    Home: home,
+    Away: away,
+  }
 }
+console.log(finalScore(inning,2));
 
 /* ⚾️⚾️⚾️ Task 4: getInningScore() ⚾️⚾️⚾️
 Use the getInningScore() function below to do the following:
