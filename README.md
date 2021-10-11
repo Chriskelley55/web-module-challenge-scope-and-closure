@@ -60,7 +60,10 @@ You will be running your tests in one terminal and debugging in the other. As yo
 
 Edit the `ReadMe` file with your answers to the questions below.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). 
+
+Closure gives us the ability to put functions together by organizing code into levels based on when we need to use them. 
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -82,8 +85,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+When the function is returned
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+First brings a number the next is null. 
 c. What is the lexical scope of `newRoll`? 
+newRoll is block scoped
 
 
 ### Task 3 - Stretch Goals
